@@ -52,13 +52,13 @@ export default function Header() {
         }
       >
         <ul className="flex flex-col justify-center items-center mt-20">
-          <li className="text-2xl text-[#353839] mb-4">
+          <li className="text-2xl text-slate-700 mb-4">
             <Link href="/">Home</Link>
           </li>
-          <li className="text-2xl text-[#353839] mb-4">
+          <li className="text-2xl text-slate-700 mb-4">
             <Link href="/gallery">Gallery</Link>
           </li>
-          <li className="text-2xl text-[#353839] mb-4">
+          <li className="text-2xl text-slate-700 mb-4">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
