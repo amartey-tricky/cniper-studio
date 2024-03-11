@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cniper Studio Photography Portfolio Website
+
+Welcome to the portfolio website of `Cniper Studio`. This website showcases our team's exceptional work in the photography industry. We take pride in capturing beautiful moments and creating stunning visuals for our clients.
+
+## About
+
+`Cniper Studio` is a professional photography studio based in Accra, Ghana. We specialize in various genres of photography, including but not limited to:
+
+- Commercial Photography
+- Portrait Photography
+- Event Photography
+- Product Photography
+- Landscape Photography
+
+Our team of skilled photographers is dedicated to delivering high-quality images that exceed our clients' expectations.
+
+## Features
+
+Our portfolio website offers the following features:
+
+- **Gallery**: A visually appealing gallery that showcases our best work, categorized by genre.
+- **About Us**: Get to know our team of talented photographers and learn about our company's history and philosophy.
+- **Services**: Detailed information about the photography services we offer, including pricing and packages.
+- **Contact**: A convenient contact form for inquiries, booking requests, and general communication.
+
+## Technologies Used
+
+This website is built using the following technologies:
+
+- NextJS
+- Tailwind CSS
+- Drizzle ORM
 
 ## Getting Started
 
-First, run the development server:
+To run this website locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone https://github.com/amartey-tricky/cniper-studio.git`
+2. Navigate to the project directory: `cd cniper-studio`
+3. Install dependencies: `bun install`
+4. Start the development server: `bun run dev`
+5. Open your browser and visit `http://localhost:3000`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We welcome contributions from the community! If you'd like to contribute to this project, please follow these steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Fork the repository
+2. Create a new branch: `git checkout -b my-new-feature`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
+If you have any questions, suggestions, or inquiries, please feel free to contact us:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Email: 
+- Phone: 
+- Website: cniper-studio.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We look forward to hearing from you!
