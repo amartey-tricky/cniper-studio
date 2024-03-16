@@ -3,7 +3,7 @@ import Contacts from "@/components/contact"
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8">
+    <main className="sm:flex min-h-screen flex-col items-center justify-between md:p-8">
       <Header />
       <Contacts />
     </main>
