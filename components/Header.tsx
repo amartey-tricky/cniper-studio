@@ -14,7 +14,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full h-16 backdrop-blur-xl">
+    <header className="w-full h-16 backdrop-blur-xl sticky top-0 z-50">
       <div className="w-full h-full flex items-center justify-between px-5">
         <section>
           <Link href="/">

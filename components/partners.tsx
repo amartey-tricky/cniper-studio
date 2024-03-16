@@ -39,8 +39,8 @@ export default function Partners() {
             <Image
               src={partner.logo}
               alt={`${partner.name} Logo`}
-              width={120}
-              height={60}
+              width={100}
+              height={100}
              />
           </div>
         ))}
