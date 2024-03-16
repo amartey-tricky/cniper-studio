@@ -24,44 +24,44 @@ export default function Contacts() {
     message: "",
   });
 
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
-  if (loading) return toast.loading("Sending Message...");
+  // if (loading) return toast.loading("Sending Message...");
 
-  const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (!data.first_name) {
-      return toast.error("Please enter your first name");
-    }
-    if (!data.email) {
-      return toast.error("Please enter your email");
-    }
-    if (!data.phone_number) {
-      return toast.error("Please enter your phone number");
-    }
-    if (!data.subject) {
-      return toast.error("Please enter a subject");
-    }
-    if (!data.message) {
-      return toast.error("Please enter a message");
-    }
+  // const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   if (!data.first_name) {
+  //     return toast.error("Please enter your first name");
+  //   }
+  //   if (!data.email) {
+  //     return toast.error("Please enter your email");
+  //   }
+  //   if (!data.phone_number) {
+  //     return toast.error("Please enter your phone number");
+  //   }
+  //   if (!data.subject) {
+  //     return toast.error("Please enter a subject");
+  //   }
+  //   if (!data.message) {
+  //     return toast.error("Please enter a message");
+  //   }
 
-    setLoading(true);
-    const response = await fetch("/api/send", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
+  //   setLoading(true);
+  //   const response = await fetch("/api/send", {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(data),
+  //   });
 
-    if (response.status === 200) {
-      setLoading(false);
-      toast.success(
-        `Hey ${data.first_name}, your message was sent successfully! Check your inbox!`
-      );
-    }
-  };
+  //   if (response.status === 200) {
+  //     setLoading(false);
+  //     toast.success(
+  //       `Hey ${data.first_name}, your message was sent successfully! Check your inbox!`
+  //     );
+  //   }
+  // };
   return (
     <section className="isolate px-6 py-24 sm:py-32 lg:px-8">
       <div
@@ -85,7 +85,7 @@ export default function Contacts() {
           our customers.
         </p>
       </div>
-      <form onSubmit={sendEmail} className="mx-auto mt-16 max-w-xl sm:mt-20">
+      <form className="mx-auto mt-16 max-w-xl sm:mt-20">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label
