@@ -12,6 +12,7 @@
     "@heroicons/react": "latest",
     "@supabase/supabase-js": "latest",
     "@tailwindcss/forms": "latest",
+    "@vercel/analytics": "latest",
     "@vercel/postgres": "latest",
     "clsx": "latest",
     "drizzle-orm": "latest",
