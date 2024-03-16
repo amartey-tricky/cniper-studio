@@ -7,7 +7,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    console.log("body", body)
     const {email, first_name, subject, message, phone_number} = body;
     const data = await resend.emails.send({
       from: "Cniper Studio <info@cniperstudio.org",
