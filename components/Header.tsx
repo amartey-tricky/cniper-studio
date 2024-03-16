@@ -47,7 +47,7 @@ export default function Header() {
       <div
         className={
           isOpen
-            ? "left-0 top-0 w-full h-screen relative transition-transform ease-in-out duration-500 flex flex-col items-center justify-start z-[50] opacity-45 backdrop-blur-sm"
+            ? "left-0 top-0 w-full h-screen relative transition-transform ease-in-out duration-500 flex flex-col items-center justify-start z-[50] opacity-65 backdrop-blur-sm"
             : "hidden"
         }
       >

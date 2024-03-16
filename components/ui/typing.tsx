@@ -18,8 +18,8 @@ export default function TypingAnimation() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ["Photography", "Videography", "Animation"],
-      typeSpeed: 500,
-      backSpeed: 500,
+      typeSpeed: 100,
+      backSpeed: 50,
       loop: true,
       smartBackspace: true,
       cursorChar: "_",

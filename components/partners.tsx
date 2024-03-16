@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "next/image";
+import { mansalva } from "./ui/fonts";
 
 interface partnerProps {
   name: string;
@@ -27,8 +27,8 @@ const partners: partnerProps[] = [
 
 export default function Partners() {
   return (
-    <section className="flex flex-col items-center justify-center text-center">
-      <h1 className="text-center text-6xl font-black">Our Partners</h1>
+    <section className="flex flex-col items-center justify-center text-center p-8">
+      <h1 className={`${mansalva.className} text-center text-6xl font-black`}>Our Partners</h1>
       <p className="text-justify text-xl text-slate-400 my-8">
         We are proud to have partnered with some of the best brands in the
         world.
