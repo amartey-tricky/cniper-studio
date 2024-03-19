@@ -1,8 +1,8 @@
 "use client";
 
 import NavLinks from "./ui/nav-links";
+import Logo from "./ui/logo";
 import Link from "next/link";
-import Image from "next/image";
 import { useState } from "react";
 import { FaBars, FaX } from "react-icons/fa6";
 
@@ -17,14 +17,7 @@ export default function Header() {
     <header className="w-full h-16 backdrop-blur-xl sticky top-0 z-50">
       <div className="w-full h-full flex items-center justify-between px-5">
         <section>
-          <Link href="/">
-            <Image
-              src="/logo.png"
-              alt="Cniper Studio Logo"
-              width={120}
-              height={120}
-            />
-          </Link>
+          <Logo />
         </section>
           <NavLinks />
           <div className="-mr-2 flex md:hidden">
